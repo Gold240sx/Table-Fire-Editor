@@ -5,7 +5,8 @@ export function widthMachine() {
   const pageWidthBox = document.getElementById('page-width')
 
   widthMachineBox.classList.add('widthMachineBox');
-  pageWidthBox.innerText = window.inner
+  pageWidthBox.innerText = windowWidth;
 
   console.log("widthMachine is On!")
 }
+

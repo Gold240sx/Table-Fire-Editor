@@ -3,9 +3,11 @@
   height: fit-content;
   box-sizing: border-box;
   background-color: black;
-  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
   position: absolute;
   right: 4px;
   bottom: 4px;
   z-index: 2;
+  display: inline-block;
 }

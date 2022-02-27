@@ -1,6 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+//@useMath
 
-body {
+// Calculations:
+
+$bodyHeight: 100%;
+$footerHeight: 60px;
+
+
+html, body {
   padding: 0px;
   margin: 0px;
   background-color: $background;
@@ -9,8 +16,25 @@ body {
   position: relative;
   align-content: center;
   text-align: center;
-  height: max-height;
-  min-height: 100vh !important;
+  height: fit-content;
+}
+
+.main-content {
+  width: 100%;
+  // min-width: 100vw-60px;
+  display: block;
+  position: relative;
+  min-height: 100%;
+  margin-bottom: -60px;
+  // height {
+  //   Math.({$bodyHeight - $footerHeight})
+  // }
+}
+
+.main-content:after {
+  content: "";
+  display: block;
+  height: 60px;
 }
 
 .container {

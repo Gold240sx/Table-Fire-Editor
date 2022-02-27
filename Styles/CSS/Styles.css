@@ -23,7 +23,7 @@
   color: yellow;
 }
 
-body {
+html, body {
   padding: 0px;
   margin: 0px;
   background-color: #445e56;
@@ -32,8 +32,21 @@ body {
   position: relative;
   align-content: center;
   text-align: center;
-  height: max-height;
-  min-height: 100vh !important;
+  height: fit-content;
+}
+
+.main-content {
+  width: 100%;
+  display: block;
+  position: relative;
+  min-height: 100%;
+  margin-bottom: -60px;
+}
+
+.main-content:after {
+  content: "";
+  display: block;
+  height: 60px;
 }
 
 .container {
@@ -45,8 +58,10 @@ body {
 }
 
 footer {
-  position: relative;
+  position: elative;
+  bottom: 0px;
   height: fit-content;
+  min-height: 60px;
   padding: 20px;
   background-color: darkcyan;
   display: block;
@@ -103,11 +118,13 @@ tr.active:hover, th.active:hover, td.active:hover {
   height: fit-content;
   box-sizing: border-box;
   background-color: black;
-  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
   position: absolute;
   right: 4px;
   bottom: 4px;
   z-index: 2;
+  display: inline-block;
 }
 
 /*# sourceMappingURL=Styles.css.map */
