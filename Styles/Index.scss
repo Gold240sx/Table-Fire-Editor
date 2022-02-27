@@ -1,23 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import "./SCSS/Color.scss";
+@import "./SCSS/Body.scss";
+@import "./SCSS/Font.scss";
+@import "./SCSS/Nav.scss";
+@import "./SCSS/Table.scss";
 
-h1, h2, h3, h4, h5, th {
-  font-family: "Poppins", sans-serif;
-  font-weight: bold;
-}
-
-body {
-  padding: 0px;
-  margin: 0px;
-  background-color: lightblue;
-}
-
-.container {
-  display: flex;
-  position: relative;
-  margin-left: auto;
-  margin-right: auto;
-  width: 100%;
-}
 
 
 

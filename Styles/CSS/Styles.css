@@ -1,13 +1,37 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
-h1, h2, h3, h4, h5, th {
-  font-family: "Poppins", sans-serif;
-  font-weight: bold;
+.primary {
+  color: magenta;
+}
+
+.secondary {
+  color: coral;
+}
+
+.triary {
+  color: orangered;
+}
+
+.black {
+  color: black;
+}
+
+.blue {
+  color: blue;
+}
+
+.yellow {
+  color: yellow;
 }
 
 body {
   padding: 0px;
   margin: 0px;
-  background-color: lightblue;
+  background-color: #445e56;
+  justify-content: center;
+  display: block;
+  position: relative;
+  align-content: center;
+  text-align: center;
 }
 
 .container {
@@ -16,6 +40,44 @@ body {
   margin-left: auto;
   margin-right: auto;
   width: 100%;
+}
+
+h1, h2, h3, h4, h5, p, th, td {
+  font-family: "Poppins", sans-serif;
+  color: white;
+}
+h1 h1, h1 h2, h1 h3, h1 h4, h1 h5, h1 th, h2 h1, h2 h2, h2 h3, h2 h4, h2 h5, h2 th, h3 h1, h3 h2, h3 h3, h3 h4, h3 h5, h3 th, h4 h1, h4 h2, h4 h3, h4 h4, h4 h5, h4 th, h5 h1, h5 h2, h5 h3, h5 h4, h5 h5, h5 th, p h1, p h2, p h3, p h4, p h5, p th, th h1, th h2, th h3, th h4, th h5, th th, td h1, td h2, td h3, td h4, td h5, td th {
+  font-weight: bold;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+nav {
+  background-color: darkgrey;
+  height: fit-content;
+  padding: 15px;
+  text-align: center;
+}
+
+.page-title {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  border: 2px solid white;
+}
+
+.table {
+  background-color: lightgray;
+  width: 100vw;
+}
+
+/*=================================================
+              Bootstrap Table Classes
+==================================================*/
+tr.active:hover, th.active:hover, td.active:hover {
+  background-color: lightgrey;
 }
 
 /*# sourceMappingURL=Styles.css.map */
