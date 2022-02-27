@@ -1,0 +1,23 @@
+h1, h2, h3, h4, h5, th{ 
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+}
+
+h1, h2, h3, h4, h5, th{ 
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+}
+
+body {
+  padding: 0px;
+  
+}
+
+.container{
+  display: flex;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  
+}
