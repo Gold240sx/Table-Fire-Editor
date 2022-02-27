@@ -1,0 +1,11 @@
+.widthMachineBox {
+  width: fit-content;
+  height: fit-content;
+  box-sizing: border-box;
+  background-color: black;
+  padding: 10px;
+  position: absolute;
+  right: 4px;
+  bottom: 4px;
+  z-index: 2;
+}

@@ -32,6 +32,8 @@ body {
   position: relative;
   align-content: center;
   text-align: center;
+  height: max-height;
+  min-height: 100vh !important;
 }
 
 .container {
@@ -40,6 +42,16 @@ body {
   margin-left: auto;
   margin-right: auto;
   width: 100%;
+}
+
+footer {
+  position: relative;
+  height: fit-content;
+  padding: 20px;
+  background-color: darkcyan;
+  display: block;
+  width: 100%;
+  color: white;
 }
 
 h1, h2, h3, h4, h5, p, th, td {
@@ -78,6 +90,24 @@ nav {
 ==================================================*/
 tr.active:hover, th.active:hover, td.active:hover {
   background-color: lightgrey;
+}
+
+@media only screen and (max-width: 500px) {
+  .table-responsive {
+    background-color: coral;
+  }
+}
+
+.widthMachineBox {
+  width: fit-content;
+  height: fit-content;
+  box-sizing: border-box;
+  background-color: black;
+  padding: 10px;
+  position: absolute;
+  right: 4px;
+  bottom: 4px;
+  z-index: 2;
 }
 
 /*# sourceMappingURL=Styles.css.map */

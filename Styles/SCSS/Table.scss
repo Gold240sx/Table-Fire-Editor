@@ -30,3 +30,14 @@ table-condensed {
 tr.active:hover, th.active:hover, td.active:hover {
   background-color: lightgrey;
 }
+
+.table-scrollable {
+  
+}
+
+.table-responsive {
+
+  @media only screen and (max-width: 500px) {
+    background-color: $secondary;
+  }
+}
